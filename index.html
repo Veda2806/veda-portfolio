@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mandla Veda Sree | Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Montserrat', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f4;
+      color: #333;
+      scroll-behavior: smooth;
+    }
+    header {
+      background: linear-gradient(120deg, #4CAF50, #388E3C);
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+      animation: fadeInDown 1s ease;
+    }
+    .profile-img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-top: 20px;
+      border: 4px solid #fff;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+    }
+    section {
+      padding: 30px 20px;
+      max-width: 1000px;
+      margin: auto;
+      background: white;
+      margin-bottom: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      animation: fadeInUp 1s ease;
+    }
+    h2 {
+      color: #388E3C;
+      margin-top: 0;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    ul li {
+      padding: 5px 0;
+    }
+    .social a {
+      margin-right: 15px;
+      color: #4CAF50;
+      text-decoration: none;
+      font-size: 1.8rem;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #333;
+      color: white;
+    }
+    .screenshot-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 30px;
+  }
+  .project-img {
+    flex: 1 1 calc(33% - 20px);
+    max-width: calc(33% - 20px);
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    height: auto;
+  }
+    .resume-btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 20px;
+      background: #4CAF50;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      transition: background 0.3s;
+    }
+    .resume-btn:hover {
+      background: #388E3C;
+    }
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(40px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes fadeInDown {
+      from { opacity: 0; transform: translateY(-40px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Mandla Veda Sree</h1>
+    <p>B.Tech in Computer Science & IT | Cloud & Software Enthusiast</p>
+    <img src="my_image.png" alt="Your Photo" class="profile-img">
+    <br>
+    <a href="https://drive.google.com/file/d/1gaiNf7RSTXJE_ij3NP8pd6jVGndCIdIZ/view?usp=sharing" target="_blank" class="resume-btn">Download Resume</a>
+  </header>
+
+  <section>
+    <h2>About Me</h2>
+    <p>A passionate and detail-oriented CSIT student skilled in cloud computing, software development, and data structures. I build impactful and secure solutions for real-world problems using Java, AWS, and Android technologies.</p>
+  </section>
+
+  <section>
+    <h2>Skills</h2>
+    <ul>
+      <li><strong>Languages:</strong> Java, Python, HTML, CSS, JavaScript, SQL</li>
+      <li><strong>Databases:</strong> MySQL</li>
+      <li><strong>Tools:</strong> Eclipse, Android Studio, AWS</li>
+      <li><strong>Concepts:</strong> DSA, CN, DBMS, OS</li>
+    </ul>
+  </section>
+
+  <style>
+    .screenshot-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin-bottom: 30px;
+    }
+    .project-img {
+      flex: 1 1 calc(33% - 20px);
+      max-width: calc(33% - 20px);
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+      height: auto;
+    }
+  </style>
+  
+  <section>
+    <h2>Projects</h2>
+  
+    <h3>1. Intelligent Cyber-Physical System for Cloud Security</h3>
+    <p>Built a secure file sharing system using RBAC + ABAC with EDoS protection.<br><strong>Tech Used:</strong> Java, AWS EC2, MySQL</p>
+    <div class="screenshot-row">
+      <img src="Dual_access_LP.png" alt="Cyber Project Screenshot 1" class="project-img">
+      <img src="Dual_access_RP.png" alt="Cyber Project Screenshot 2" class="project-img">
+      
+    </div>
+  
+    <h3>2. MediMate – Android Healthcare App</h3>
+    <p>Developed a doctor-patient connect app with real-time communication and health record management.<br><strong>Tech Used:</strong> Java, Android Studio</p>
+    <div class="screenshot-row">
+      <img src="medi_connect_LP.png" alt="MediMate Screenshot 1" class="project-img">
+      
+      <img src="dashboard.png" alt="MediMate Screenshot 3" class="project-img">
+    </div>
+  </section>
+
+  <section>
+    <h2>Experience</h2>
+    <p><strong>Cloud Intern – Internship Studio (Apr 2024 – Jun 2024)</strong><br>Configured AWS EC2 for static website hosting and integrated Amazon S3 for storage.</p>
+  </section>
+
+  <section>
+    <h2>Certifications</h2>
+    <ul>
+      <li>AWS Cloud Essentials – GeeksforGeeks (May 2025)</li>
+      <li>Introduction to Networking and Cloud Computing – Coursera (Apr 2025)</li>
+      <li>Generative AI by Microsoft & LinkedIn (Jan 2024)</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Coding Profiles</h2>
+    <ul>
+      <li><a href="https://leetcode.com/VEDA_dev2806" target="_blank">LeetCode</a>: 200+ problems solved</li>
+      <li><a href="https://www.geeksforgeeks.org/user/mahivedyk8i/" target="_blank">GeeksforGeeks</a>: 300+ problems solved</li>
+      <li><a href="https://www.hackerrank.com/mahiveda2806" target="_blank">HackerRank</a>: 6 skill badges</li>
+      <li><a href="https://www.codechef.com/users/mahiveda2806" target="_blank">CodeChef</a>: 200+ problems</li>
+    </ul>
+  </section>
+
+  <section class="social">
+    <h2>Connect with Me</h2>
+    <a href="mailto:mahiveda2806@gmail.com"><i class="fas fa-envelope"></i></a>
+    <a href="https://github.com/Veda2806" target="_blank"><i class="fab fa-github"></i></a>
+    <a href="https://www.linkedin.com/in/mandla-veda-sree-48685325a" target="_blank"><i class="fab fa-linkedin"></i></a>
+  </section>
+
+  <footer>
+    <p>© 2025 Mandla Veda Sree. All rights reserved.</p>
+  </footer>
+</body>
+</html>
